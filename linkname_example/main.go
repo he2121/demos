@@ -6,4 +6,3 @@ func main()  {
 	outer.Hello()
 	println(outer.A)
 }
-git
