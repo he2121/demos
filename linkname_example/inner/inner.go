@@ -2,6 +2,6 @@ package inner
 
 var a = 100
 
-func hello()  {
+func hello() {
 	println("hello")
 }

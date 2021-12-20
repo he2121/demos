@@ -1,14 +1,13 @@
 package main
 
-func main()  {
-	nums := make([]int, 10)
+import (
+	"fmt"
+	"path/filepath"
+)
 
-	for i := 0; i < 10;i ++{
-		index := i
-		go func() {
-			nums[index] = index
-		}()
-	}
+func main() {
+	abs, _ := filepath.Abs("../hello")
 
-	println(nums)
+	fmt.Println(abs)
+	fmt.Println(filepath.Base("../hello.txt"))
 }

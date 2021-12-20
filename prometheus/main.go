@@ -8,7 +8,6 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )
 
-
 func main() {
 	// 初始化 prometheus exporter
 	initPrometheus()
